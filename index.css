@@ -1,0 +1,159 @@
+body {
+   
+    background-color: rgb(187, 187, 187);
+}
+.contenedor{
+    display: flex;
+    gap: 5vh;
+    width: 90%;
+    margin: 10vh auto;
+    flex-direction: row-reverse;
+}
+.star-container {
+    
+    width: 110px;
+    
+  }
+  
+  .star-icons5 {
+    background:transparent;
+    width: 100%;
+    overflow: hidden;
+  }
+  .star-icons45 {
+    background: transparent;
+    width: 90%;
+    overflow:   hidden;
+  }
+  .star-icons4 {
+    background: transparent;
+    width: 80%;
+    overflow:   hidden;
+  }
+  .star-icons35 {
+    background: transparent;
+    width: 70%;
+    overflow:   hidden;
+  }
+  
+  
+  .star {
+    width: 120px;
+    color: #882424;
+    
+  }
+
+.columnOne {
+ 
+    width: 20vw;
+    margin: 0vh 0.5vw;
+}
+.contenedor_Laboral {
+    width: 210px;
+    display: flex;
+    font-family: 'Gill Sans MT';
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.contenedor_personal {
+    width: 210px;
+    display: flex;
+    font-family: 'Gill Sans MT';
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.columnTwo {
+
+    width: 58vw;
+    margin: 0vh 0.5vw;
+}
+
+.datos {
+    
+    background-color:   rgb(130, 130, 130);
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    
+}
+
+.datos img{
+    width: 14vw;
+    margin-top: 3vh;
+}
+
+.sobremi h2,
+.habilidades h2,
+.experiencia h2,
+.certificaciones h2,
+.educacion h2 {
+    font-family: 'Gill Sans MT';
+    background-color: #882424;
+    text-align: center;
+}
+.sobremi h3,
+.habilidades h3,
+.experiencia h3,
+.certificaciones h3,
+.educacion h3 {
+    font-family: 'Gill Sans MT';
+    text-align: center;
+}
+
+.sobremi p,
+.experiencia p,
+.certificaciones p,
+.educacion p,
+.sobremi {
+    
+    font-family: 'Gill Sans MT';
+    
+}
+
+progress {
+    width: 18vw;
+    height: 2vh;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #882424;
+    font-family: 'Gill Sans MT';
+    margin-bottom: 0;
+}
+
+.titulo h3 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(126, 126, 126);
+    margin-top: 0;
+    font-family: 'Gill Sans MT';
+}
+
+.experiencia .cargo,
+.educacion .cargo,
+.certificaciones .cargo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.experiencia .empresa,
+.educacion .empresa,
+.certificaciones .empresa  {
+    font-size: 25px;
+    color: #882424;
+    margin: 0;
+}
+
+.experiencia .fecha,
+.educacion .fecha  {
+    text-align: right;
+    color: rgb(126, 126, 126);
+    margin-bottom: 0;
+}
+
